@@ -1,0 +1,10 @@
+@keyframes piscar-brilhar {
+    0% {color: black; text-shadow: none;}
+    50% {color: rgb(15, 35, 212); text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #FFF, 0 0 25px #FFF, 0 0 30px #FFF, 0 0 35px #FFF;}
+    100% {color: black; text-shadow: none;}
+  }
+  
+  #piscar {
+    animation: piscar-brilhar 1s infinite;
+    font-size: 50px;
+  }
